@@ -80,7 +80,17 @@ class BucketObjectController {
      awsAccessKeyId:awsCreds.AWSAccessKeyId]
   }
 
-  def save = {render "save not implented" }
+  def save = {
+//    if (!s3.doesBucketExist(params.bucketName)) {
+//	s3.putObject(new PutObjectRequest( params.bucketName, timeFormat.format(new Date()), new File( params.file ) )
+//      flash.message = "bucket ${params.bucketName} created"
+//
+//    } else {
+//      flash.message = "bucket ${params.bucketName} already exists"
+//    }
+//    redirect(action: "list")
+  }
+
 
   def show = {
     params.max = params.max ? params.int('max') : 10000

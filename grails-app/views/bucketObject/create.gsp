@@ -22,7 +22,7 @@
                         </ul>
                 </div>
 
-<form action="https://${params.id}.s3.amazonaws.com" 
+<form action="https://${params.id}.s3.amazonaws.com"  
       method="post" enctype="multipart/form-data"
 	  onsubmit="setS3BucketObjectKey();" >
   <input type="hidden" name="key" id="key"/>
