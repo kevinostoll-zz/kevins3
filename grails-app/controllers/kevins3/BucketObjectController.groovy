@@ -13,8 +13,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 class BucketObjectController {
   private static AmazonS3 s3;
-  private static String accessKey = "AKIAIMILBQ7FAKVPU7WQ";
-  private static String secretKey = "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"
+  private static String accessKey = "aoeu";
+  private static String secretKey = "aoeuaoeu"
   private static BasicAWSCredentials awsCreds = null;
 
 
