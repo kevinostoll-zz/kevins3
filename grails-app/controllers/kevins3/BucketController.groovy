@@ -8,8 +8,8 @@ import com.amazonaws.services.s3.AmazonS3Client
 class BucketController {
 
   private static AmazonS3 s3;  
-  private static String accessKey = "AKIAIMILBQ7FAKVPU7WQ";
-  private static String secretKey = "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"
+  private static String accessKey = "aoeuaoeu";
+  private static String secretKey = "aoeuoeu"
   
 
   def beforeInterceptor = {
